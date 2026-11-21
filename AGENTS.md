@@ -64,7 +64,7 @@ curl -c jar.txt -H "Origin: $SITE" -H "Content-Type: application/json" \
 curl -b jar.txt $SITE/api/billing/wallet
 ```
 
-写书、检查、封面、成书等功能请在浏览器里使用；这些接口没有公开文档，以后可能变化。
+写书、检查、封面、成书、有声书、视频、发布到书库等**全部功能都可以直接调用接口**，见 [docs/14-接口速查（给AI-agent）.md](docs/14-接口速查（给AI-agent）.md)。
 
 ### 注册规则
 
